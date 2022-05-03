@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #11090f;
+}
+
+h1 {
+    color: #838183;
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+.welcomeRow {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 200;
+    color: white;
+}
+
+.welcome {
+    font-weight: 300;
+    background: -webkit-linear-gradient(#fe8d5f, #fe2039, #f92ea0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.totalContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.template {
+    background-color: #838183;
+    width: 6vw;
+    height: 6vw;
+    transition: outline 0.2s, outline-offset 0.5s, filter 0.2s;
+}
+
+.template:hover {
+    outline: 5px solid white;
+    outline-offset: -5px;
+    filter: brightness(125%);
+}
+
+.big {
+    width: 10vw;
+    height: 10vw;
+}
+
+#digital-clock {
+    color: white;
+}
+
+.city-icon {
+    width: 3vw;
+}
+
+/*
+    IMAGE DUMP :D 
+*/
+
+.halo {
+    background-image: url('../style/assets/rHalo.png');
+    background-size: 100%;
+}
+
+.startpages {
+    background-image: url('../style/assets/rStartpage.png');
+    background-size: 100%;
+}
+
+.desktops {
+    background-image: url('../style/assets/rDesktops.png');
+    background-size: 100%;
+}
+
+.reddit {
+    background-image: url('../style/assets/reddit.png');
+    background-size: 100%;
+}
+
+.netflix {
+    background-image: url('../style/assets/netflix.png');
+    background-size: 100%;
+}
+
+.youtube {
+    background-image: url('../style/assets/youtube.png');
+    background-size: 100%;
+}
+
+.facebook {
+    background-image: url('../style/assets/facebook.png');
+    background-size: 100%;
+}
+
+.alphabetagamer {
+    background-image: url('../style/assets/alphabetagamer.png');
+    background-size: 100%;
+}
+
+.gmail {
+    background-image: url('../style/assets/gmail.png');
+    background-size: 100%;
+}
+
+.paypal {
+    background-image: url('../style/assets/paypal.png');
+    background-size: 100%;
+}
+
+.github {
+    background-image: url('../style/assets/github.png');
+    background-size: 100%;
+}
+
+.steamdb {
+    background-image: url('../style/assets/steamdb.png');
+    background-size: 100%;
+}
+
+.amazon {
+    background-image: url('../style/assets/amazon.png');
+    background-size: 100%;
+}
