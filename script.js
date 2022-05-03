@@ -1,5 +1,16 @@
-
 window.onload = function () {
+    
+    console.log(`%c
+                                                        \n\
+                  _/            _/  _/        _/        \n\
+                 _/    _/_/_/      _/  _/               \n\
+                _/  _/    _/  _/  _/_/      _/          \n\
+         _/    _/  _/    _/  _/  _/  _/    _/           \n\
+          _/_/      _/_/_/  _/  _/    _/  _/            \n\
+                                                        \n\
+`, "background: #fadadd; color: #cf5157; font-size: 15px;padding: 1px;font-family: monospace;");
+console.log("%c             Howdy reddit 🤠👍              ", "background: #fadadd; color: #cf5157; font-size: 15px;padding: 15px;font-family: monospace;");
+
 
     // i'm too lazy to create a clock so i took it from https://www.makeuseof.com/create-a-digital-clock-html-css-javascript/ :)
 
